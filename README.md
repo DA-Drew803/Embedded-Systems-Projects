@@ -1,7 +1,7 @@
-# ATmega328P Bare-Metal Embedded Projects
+# ATmega328P Embedded System Projects
 
-Eight register-level C projects developed on the AVR Xplained Mini 328P. The
-collection progresses from GPIO timing and serial communication to matrix
+Eight C projects developed on the AVR Xplained Mini 328P. The
+collection progresses from timing and serial communication to matrix
 keypads, timer interrupts, ADC sampling, PWM, and EEPROM persistence.
 
 ## Projects
@@ -23,8 +23,7 @@ keypads, timer interrupts, ADC sampling, PWM, and EEPROM persistence.
 - Development board: AVR Xplained Mini 328P
 - Clock: 16 MHz
 - IDE used for the coursework: Atmel Studio
-- Language/toolchain: AVR GCC C through Atmel Studio
-- Programming style: direct peripheral-register access
+- Language: C through Atmel Studio
 
 ## Building with Atmel Studio
 
@@ -35,10 +34,9 @@ keypads, timer interrupts, ADC sampling, PWM, and EEPROM persistence.
 5. Select **Build > Build Solution**.
 6. Connect the AVR Xplained Mini 328P and program it with the board's
    integrated debugger/programmer.
+   
+All projects assume a 16 MHz clock
 
-Each lab should be a separate Atmel Studio project because every folder has its
-own `main()` function. All projects assume a 16 MHz clock. The included
-Makefile is an optional command-line alternative.
 
 ## Design notes
 

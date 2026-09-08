@@ -5,7 +5,6 @@ the original conditional character encoder.
 
 ## Concepts
 
-- Direct GPIO control through `DDRB` and `PORTB`
 - Character mapping and string traversal
 - Morse timing based on a 200 ms unit
 
